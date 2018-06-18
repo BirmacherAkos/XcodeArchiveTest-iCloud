@@ -47,6 +47,7 @@
 		B6CF3C0420D7E38E00C82C54 /* XcodeArchiveTest-iCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XcodeArchiveTest-iCloudUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF3C0820D7E38E00C82C54 /* XcodeArchiveTest_iCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeArchiveTest_iCloudUITests.swift; sourceTree = "<group>"; };
 		B6CF3C0A20D7E38E00C82C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CF3C1620D7E39D00C82C54 /* XcodeArchiveTest-iCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "XcodeArchiveTest-iCloud.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		B6CF3BE720D7E38C00C82C54 /* XcodeArchiveTest-iCloud */ = {
 			isa = PBXGroup;
 			children = (
+				B6CF3C1620D7E39D00C82C54 /* XcodeArchiveTest-iCloud.entitlements */,
 				B6CF3BE820D7E38C00C82C54 /* AppDelegate.swift */,
 				B6CF3BEA20D7E38C00C82C54 /* ViewController.swift */,
 				B6CF3BEC20D7E38C00C82C54 /* Main.storyboard */,
@@ -193,6 +195,11 @@
 				TargetAttributes = {
 					B6CF3BE420D7E38C00C82C54 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					B6CF3BF820D7E38E00C82C54 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -430,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
@@ -437,7 +445,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloud";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birmachera.bitfall.XcodeArchiveTest.iCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
@@ -455,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloud";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birmachera.bitfall.XcodeArchiveTest.iCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
