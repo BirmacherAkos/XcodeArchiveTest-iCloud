@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B494F8C20FE018D005BE313 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B494F8B20FE018D005BE313 /* NotificationService.swift */; };
+		1B494F9020FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B494F8920FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B6CF3BE920D7E38C00C82C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF3BE820D7E38C00C82C54 /* AppDelegate.swift */; };
 		B6CF3BEB20D7E38C00C82C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF3BEA20D7E38C00C82C54 /* ViewController.swift */; };
 		B6CF3BEE20D7E38C00C82C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CF3BEC20D7E38C00C82C54 /* Main.storyboard */; };
@@ -17,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1B494F8E20FE018D005BE313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CF3BDD20D7E38C00C82C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B494F8820FE018D005BE313;
+			remoteInfo = "XcodeArciteTest-NotificationServiceExtension";
+		};
 		B6CF3BFA20D7E38E00C82C54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B6CF3BDD20D7E38C00C82C54 /* Project object */;
@@ -33,7 +42,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1B494F9420FE018D005BE313 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B494F9020FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B494F8920FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XcodeArciteTest-NotificationServiceExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B494F8B20FE018D005BE313 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		1B494F8D20FE018D005BE313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CF3BE520D7E38C00C82C54 /* XcodeArchiveTest-iCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XcodeArchiveTest-iCloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF3BE820D7E38C00C82C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6CF3BEA20D7E38C00C82C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +77,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B494F8620FE018D005BE313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6CF3BE220D7E38C00C82C54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,12 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B494F8A20FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1B494F8B20FE018D005BE313 /* NotificationService.swift */,
+				1B494F8D20FE018D005BE313 /* Info.plist */,
+			);
+			path = "XcodeArciteTest-NotificationServiceExtension";
+			sourceTree = "<group>";
+		};
 		B6CF3BDC20D7E38C00C82C54 = {
 			isa = PBXGroup;
 			children = (
 				B6CF3BE720D7E38C00C82C54 /* XcodeArchiveTest-iCloud */,
 				B6CF3BFC20D7E38E00C82C54 /* XcodeArchiveTest-iCloudTests */,
 				B6CF3C0720D7E38E00C82C54 /* XcodeArchiveTest-iCloudUITests */,
+				1B494F8A20FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension */,
 				B6CF3BE620D7E38C00C82C54 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +134,7 @@
 				B6CF3BE520D7E38C00C82C54 /* XcodeArchiveTest-iCloud.app */,
 				B6CF3BF920D7E38E00C82C54 /* XcodeArchiveTest-iCloudTests.xctest */,
 				B6CF3C0420D7E38E00C82C54 /* XcodeArchiveTest-iCloudUITests.xctest */,
+				1B494F8920FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +174,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1B494F8820FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B494F9120FE018D005BE313 /* Build configuration list for PBXNativeTarget "XcodeArciteTest-NotificationServiceExtension" */;
+			buildPhases = (
+				1B494F8520FE018D005BE313 /* Sources */,
+				1B494F8620FE018D005BE313 /* Frameworks */,
+				1B494F8720FE018D005BE313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XcodeArciteTest-NotificationServiceExtension";
+			productName = "XcodeArciteTest-NotificationServiceExtension";
+			productReference = 1B494F8920FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		B6CF3BE420D7E38C00C82C54 /* XcodeArchiveTest-iCloud */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6CF3C0D20D7E38E00C82C54 /* Build configuration list for PBXNativeTarget "XcodeArchiveTest-iCloud" */;
@@ -137,10 +198,12 @@
 				B6CF3BE120D7E38C00C82C54 /* Sources */,
 				B6CF3BE220D7E38C00C82C54 /* Frameworks */,
 				B6CF3BE320D7E38C00C82C54 /* Resources */,
+				1B494F9420FE018D005BE313 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1B494F8F20FE018D005BE313 /* PBXTargetDependency */,
 			);
 			name = "XcodeArchiveTest-iCloud";
 			productName = "XcodeArchiveTest-iCloud";
@@ -193,11 +256,14 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Akos Birmacher";
 				TargetAttributes = {
+					1B494F8820FE018D005BE313 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					B6CF3BE420D7E38C00C82C54 = {
 						CreatedOnToolsVersion = 9.4.1;
 						SystemCapabilities = {
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -227,11 +293,19 @@
 				B6CF3BE420D7E38C00C82C54 /* XcodeArchiveTest-iCloud */,
 				B6CF3BF820D7E38E00C82C54 /* XcodeArchiveTest-iCloudTests */,
 				B6CF3C0320D7E38E00C82C54 /* XcodeArchiveTest-iCloudUITests */,
+				1B494F8820FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1B494F8720FE018D005BE313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6CF3BE320D7E38C00C82C54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +333,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B494F8520FE018D005BE313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B494F8C20FE018D005BE313 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6CF3BE120D7E38C00C82C54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +369,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1B494F8F20FE018D005BE313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B494F8820FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension */;
+			targetProxy = 1B494F8E20FE018D005BE313 /* PBXContainerItemProxy */;
+		};
 		B6CF3BFB20D7E38E00C82C54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B6CF3BE420D7E38C00C82C54 /* XcodeArchiveTest-iCloud */;
@@ -319,6 +406,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1B494F9220FE018D005BE313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				INFOPLIST_FILE = "XcodeArciteTest-NotificationServiceExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.bitfall.XcodeArchiveTest.iCloud.XcodeArciteTest-NotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B494F9320FE018D005BE313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				INFOPLIST_FILE = "XcodeArciteTest-NotificationServiceExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.bitfall.XcodeArchiveTest.iCloud.XcodeArciteTest-NotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B6CF3C0B20D7E38E00C82C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -436,8 +561,8 @@
 		B6CF3C0E20D7E38E00C82C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
@@ -455,8 +580,8 @@
 		B6CF3C0F20D7E38E00C82C54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
@@ -556,6 +681,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B494F9120FE018D005BE313 /* Build configuration list for PBXNativeTarget "XcodeArciteTest-NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B494F9220FE018D005BE313 /* Debug */,
+				1B494F9320FE018D005BE313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B6CF3BE020D7E38C00C82C54 /* Build configuration list for PBXProject "XcodeArchiveTest-iCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
