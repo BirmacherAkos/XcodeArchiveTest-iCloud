@@ -60,6 +60,7 @@
 		1B494F8920FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "XcodeArciteTest-NotificationServiceExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B494F8B20FE018D005BE313 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		1B494F8D20FE018D005BE313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B494F9520FE05E5005BE313 /* XcodeArciteTest-NotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "XcodeArciteTest-NotificationServiceExtension.entitlements"; sourceTree = "<group>"; };
 		B6CF3BE520D7E38C00C82C54 /* XcodeArchiveTest-iCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XcodeArchiveTest-iCloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF3BE820D7E38C00C82C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6CF3BEA20D7E38C00C82C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		1B494F8A20FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
+				1B494F9520FE05E5005BE313 /* XcodeArciteTest-NotificationServiceExtension.entitlements */,
 				1B494F8B20FE018D005BE313 /* NotificationService.swift */,
 				1B494F8D20FE018D005BE313 /* Info.plist */,
 			);
@@ -258,10 +260,18 @@
 				TargetAttributes = {
 					1B494F8820FE018D005BE313 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					B6CF3BE420D7E38C00C82C54 = {
 						CreatedOnToolsVersion = 9.4.1;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.iCloud = {
 								enabled = 0;
 							};
@@ -409,6 +419,7 @@
 		1B494F9220FE018D005BE313 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "XcodeArciteTest-NotificationServiceExtension/XcodeArciteTest-NotificationServiceExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArciteTest-NotificationServiceExtension/Info.plist";
@@ -428,6 +439,7 @@
 		1B494F9320FE018D005BE313 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "XcodeArciteTest-NotificationServiceExtension/XcodeArciteTest-NotificationServiceExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArciteTest-NotificationServiceExtension/Info.plist";
@@ -563,6 +575,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
@@ -582,6 +595,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
