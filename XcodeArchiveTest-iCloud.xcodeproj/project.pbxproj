@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1B494F8C20FE018D005BE313 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B494F8B20FE018D005BE313 /* NotificationService.swift */; };
 		1B494F9020FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B494F8920FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1BE51EB021A563BF0066B97B /* Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE51EAF21A563BF0066B97B /* Placeholder.m */; };
+		52B3A2F0249B974AEFB11FA5 /* Pods_XcodeArchiveTest_iCloudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2C467AE6603F3CDE6B34EC /* Pods_XcodeArchiveTest_iCloudTests.framework */; };
+		8FEE400EAE91DFACE8101040 /* Pods_XcodeArchiveTest_iCloudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB71545B5729743EF26CFA4B /* Pods_XcodeArchiveTest_iCloudUITests.framework */; };
+		958A84BCA767F9AC99455495 /* Pods_XcodeArchiveTest_iCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D2725837838434C25DA27B /* Pods_XcodeArchiveTest_iCloud.framework */; };
+		A62EC8901F6726B0411AF849 /* Pods_XcodeArciteTest_NotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD048E9E1B6FFB60D95AB545 /* Pods_XcodeArciteTest_NotificationServiceExtension.framework */; };
 		B6CF3BE920D7E38C00C82C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF3BE820D7E38C00C82C54 /* AppDelegate.swift */; };
 		B6CF3BEB20D7E38C00C82C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF3BEA20D7E38C00C82C54 /* ViewController.swift */; };
 		B6CF3BEE20D7E38C00C82C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CF3BEC20D7E38C00C82C54 /* Main.storyboard */; };
@@ -61,6 +66,19 @@
 		1B494F8B20FE018D005BE313 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		1B494F8D20FE018D005BE313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B494F9520FE05E5005BE313 /* XcodeArciteTest-NotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "XcodeArciteTest-NotificationServiceExtension.entitlements"; sourceTree = "<group>"; };
+		1BE51EAE21A563BF0066B97B /* XcodeArchiveTest-iCloud-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeArchiveTest-iCloud-Bridging-Header.h"; sourceTree = "<group>"; };
+		1BE51EAF21A563BF0066B97B /* Placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Placeholder.m; sourceTree = "<group>"; };
+		2C109B2A75710B649553788D /* Pods-XcodeArchiveTest-iCloudTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloudTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloudTests/Pods-XcodeArchiveTest-iCloudTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39CFB101BAEE976983F7A3B5 /* Pods-XcodeArchiveTest-iCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloud/Pods-XcodeArchiveTest-iCloud.release.xcconfig"; sourceTree = "<group>"; };
+		3AB5854300C8578D1AD83640 /* Pods-XcodeArchiveTest-iCloudUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloudUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloudUITests/Pods-XcodeArchiveTest-iCloudUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E5E1671C93A58A4C9D0A79B /* Pods-XcodeArchiveTest-iCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloud/Pods-XcodeArchiveTest-iCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		44D2725837838434C25DA27B /* Pods_XcodeArchiveTest_iCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcodeArchiveTest_iCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECA71A21D45D365EC4FB695 /* Pods-XcodeArchiveTest-iCloudUITests.release copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloudUITests.release copy.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloudUITests/Pods-XcodeArchiveTest-iCloudUITests.release copy.xcconfig"; sourceTree = "<group>"; };
+		71D8C26C415F6A9FC330B5CC /* Pods-XcodeArchiveTest-iCloudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloudUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloudUITests/Pods-XcodeArchiveTest-iCloudUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACF49C21A803C7F196BA698 /* Pods-XcodeArchiveTest-iCloud.release copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloud.release copy.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloud/Pods-XcodeArchiveTest-iCloud.release copy.xcconfig"; sourceTree = "<group>"; };
+		8E6091993DE2048DCD32336D /* Pods-XcodeArciteTest-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArciteTest-NotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArciteTest-NotificationServiceExtension/Pods-XcodeArciteTest-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		9D2C467AE6603F3CDE6B34EC /* Pods_XcodeArchiveTest_iCloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcodeArchiveTest_iCloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43DF02F8B54E027BEE5B8E2 /* Pods-XcodeArciteTest-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArciteTest-NotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArciteTest-NotificationServiceExtension/Pods-XcodeArciteTest-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		B6CF3BE520D7E38C00C82C54 /* XcodeArchiveTest-iCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XcodeArchiveTest-iCloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF3BE820D7E38C00C82C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6CF3BEA20D7E38C00C82C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +93,15 @@
 		B6CF3C0820D7E38E00C82C54 /* XcodeArchiveTest_iCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeArchiveTest_iCloudUITests.swift; sourceTree = "<group>"; };
 		B6CF3C0A20D7E38E00C82C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CF3C1620D7E39D00C82C54 /* XcodeArchiveTest-iCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "XcodeArchiveTest-iCloud.entitlements"; sourceTree = "<group>"; };
+		BCD06A22B9748149EFFF8C27 /* Pods-XcodeArchiveTest-iCloudTests.release copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloudTests.release copy.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloudTests/Pods-XcodeArchiveTest-iCloudTests.release copy.xcconfig"; sourceTree = "<group>"; };
+		C8C96B7C9896363E715CF8ED /* Pods-XcodeArchiveTest-iCloudTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloudTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloudTests/Pods-XcodeArchiveTest-iCloudTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB71545B5729743EF26CFA4B /* Pods_XcodeArchiveTest_iCloudUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcodeArchiveTest_iCloudUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D118B15DDA47808DC0DB8714 /* Pods-XcodeArchiveTest-iCloud.debug copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloud.debug copy.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloud/Pods-XcodeArchiveTest-iCloud.debug copy.xcconfig"; sourceTree = "<group>"; };
+		DD048E9E1B6FFB60D95AB545 /* Pods_XcodeArciteTest_NotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XcodeArciteTest_NotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E04645FE646BC93E5C549D /* Pods-XcodeArchiveTest-iCloudUITests.debug copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloudUITests.debug copy.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloudUITests/Pods-XcodeArchiveTest-iCloudUITests.debug copy.xcconfig"; sourceTree = "<group>"; };
+		E2FCB7D79376D97F2F42F9AE /* Pods-XcodeArchiveTest-iCloudTests.debug copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArchiveTest-iCloudTests.debug copy.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArchiveTest-iCloudTests/Pods-XcodeArchiveTest-iCloudTests.debug copy.xcconfig"; sourceTree = "<group>"; };
+		ED02C77C93C03D22A55DB77E /* Pods-XcodeArciteTest-NotificationServiceExtension.release copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArciteTest-NotificationServiceExtension.release copy.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArciteTest-NotificationServiceExtension/Pods-XcodeArciteTest-NotificationServiceExtension.release copy.xcconfig"; sourceTree = "<group>"; };
+		ED534991C86153CE20BC0E37 /* Pods-XcodeArciteTest-NotificationServiceExtension.debug copy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XcodeArciteTest-NotificationServiceExtension.debug copy.xcconfig"; path = "Pods/Target Support Files/Pods-XcodeArciteTest-NotificationServiceExtension/Pods-XcodeArciteTest-NotificationServiceExtension.debug copy.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62EC8901F6726B0411AF849 /* Pods_XcodeArciteTest_NotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958A84BCA767F9AC99455495 /* Pods_XcodeArchiveTest_iCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B3A2F0249B974AEFB11FA5 /* Pods_XcodeArchiveTest_iCloudTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FEE400EAE91DFACE8101040 /* Pods_XcodeArchiveTest_iCloudUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +150,17 @@
 			path = "XcodeArciteTest-NotificationServiceExtension";
 			sourceTree = "<group>";
 		};
+		334C8186C582885D343E4D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D2725837838434C25DA27B /* Pods_XcodeArchiveTest_iCloud.framework */,
+				9D2C467AE6603F3CDE6B34EC /* Pods_XcodeArchiveTest_iCloudTests.framework */,
+				CB71545B5729743EF26CFA4B /* Pods_XcodeArchiveTest_iCloudUITests.framework */,
+				DD048E9E1B6FFB60D95AB545 /* Pods_XcodeArciteTest_NotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6CF3BDC20D7E38C00C82C54 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +169,8 @@
 				B6CF3C0720D7E38E00C82C54 /* XcodeArchiveTest-iCloudUITests */,
 				1B494F8A20FE018D005BE313 /* XcodeArciteTest-NotificationServiceExtension */,
 				B6CF3BE620D7E38C00C82C54 /* Products */,
+				EEE4FF9879CC826B3009458C /* Pods */,
+				334C8186C582885D343E4D37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +195,8 @@
 				B6CF3BEF20D7E38E00C82C54 /* Assets.xcassets */,
 				B6CF3BF120D7E38E00C82C54 /* LaunchScreen.storyboard */,
 				B6CF3BF420D7E38E00C82C54 /* Info.plist */,
+				1BE51EAF21A563BF0066B97B /* Placeholder.m */,
+				1BE51EAE21A563BF0066B97B /* XcodeArchiveTest-iCloud-Bridging-Header.h */,
 			);
 			path = "XcodeArchiveTest-iCloud";
 			sourceTree = "<group>";
@@ -173,6 +219,29 @@
 			path = "XcodeArchiveTest-iCloudUITests";
 			sourceTree = "<group>";
 		};
+		EEE4FF9879CC826B3009458C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E5E1671C93A58A4C9D0A79B /* Pods-XcodeArchiveTest-iCloud.debug.xcconfig */,
+				D118B15DDA47808DC0DB8714 /* Pods-XcodeArchiveTest-iCloud.debug copy.xcconfig */,
+				39CFB101BAEE976983F7A3B5 /* Pods-XcodeArchiveTest-iCloud.release.xcconfig */,
+				7ACF49C21A803C7F196BA698 /* Pods-XcodeArchiveTest-iCloud.release copy.xcconfig */,
+				2C109B2A75710B649553788D /* Pods-XcodeArchiveTest-iCloudTests.debug.xcconfig */,
+				E2FCB7D79376D97F2F42F9AE /* Pods-XcodeArchiveTest-iCloudTests.debug copy.xcconfig */,
+				C8C96B7C9896363E715CF8ED /* Pods-XcodeArchiveTest-iCloudTests.release.xcconfig */,
+				BCD06A22B9748149EFFF8C27 /* Pods-XcodeArchiveTest-iCloudTests.release copy.xcconfig */,
+				71D8C26C415F6A9FC330B5CC /* Pods-XcodeArchiveTest-iCloudUITests.debug.xcconfig */,
+				E1E04645FE646BC93E5C549D /* Pods-XcodeArchiveTest-iCloudUITests.debug copy.xcconfig */,
+				3AB5854300C8578D1AD83640 /* Pods-XcodeArchiveTest-iCloudUITests.release.xcconfig */,
+				5ECA71A21D45D365EC4FB695 /* Pods-XcodeArchiveTest-iCloudUITests.release copy.xcconfig */,
+				B43DF02F8B54E027BEE5B8E2 /* Pods-XcodeArciteTest-NotificationServiceExtension.debug.xcconfig */,
+				ED534991C86153CE20BC0E37 /* Pods-XcodeArciteTest-NotificationServiceExtension.debug copy.xcconfig */,
+				8E6091993DE2048DCD32336D /* Pods-XcodeArciteTest-NotificationServiceExtension.release.xcconfig */,
+				ED02C77C93C03D22A55DB77E /* Pods-XcodeArciteTest-NotificationServiceExtension.release copy.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B494F9120FE018D005BE313 /* Build configuration list for PBXNativeTarget "XcodeArciteTest-NotificationServiceExtension" */;
 			buildPhases = (
+				2A26F96831FEA23D7DE62A90 /* [CP] Check Pods Manifest.lock */,
 				1B494F8520FE018D005BE313 /* Sources */,
 				1B494F8620FE018D005BE313 /* Frameworks */,
 				1B494F8720FE018D005BE313 /* Resources */,
@@ -197,10 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6CF3C0D20D7E38E00C82C54 /* Build configuration list for PBXNativeTarget "XcodeArchiveTest-iCloud" */;
 			buildPhases = (
+				FFEE713842714F8037D91478 /* [CP] Check Pods Manifest.lock */,
 				B6CF3BE120D7E38C00C82C54 /* Sources */,
 				B6CF3BE220D7E38C00C82C54 /* Frameworks */,
 				B6CF3BE320D7E38C00C82C54 /* Resources */,
 				1B494F9420FE018D005BE313 /* Embed App Extensions */,
+				1BE51EB121A563EF0066B97B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -216,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6CF3C1020D7E38E00C82C54 /* Build configuration list for PBXNativeTarget "XcodeArchiveTest-iCloudTests" */;
 			buildPhases = (
+				E18E189153CBDC0AA5EC1931 /* [CP] Check Pods Manifest.lock */,
 				B6CF3BF520D7E38E00C82C54 /* Sources */,
 				B6CF3BF620D7E38E00C82C54 /* Frameworks */,
 				B6CF3BF720D7E38E00C82C54 /* Resources */,
@@ -234,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6CF3C1320D7E38E00C82C54 /* Build configuration list for PBXNativeTarget "XcodeArchiveTest-iCloudUITests" */;
 			buildPhases = (
+				75697171251E4B13081C8A34 /* [CP] Check Pods Manifest.lock */,
 				B6CF3C0020D7E38E00C82C54 /* Sources */,
 				B6CF3C0120D7E38E00C82C54 /* Frameworks */,
 				B6CF3C0220D7E38E00C82C54 /* Resources */,
@@ -268,6 +342,7 @@
 					};
 					B6CF3BE420D7E38C00C82C54 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -282,16 +357,18 @@
 								enabled = 1;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
 					B6CF3BF820D7E38E00C82C54 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = B6CF3BE420D7E38C00C82C54;
 					};
 					B6CF3C0320D7E38E00C82C54 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = B6CF3BE420D7E38C00C82C54;
 					};
 				};
@@ -351,6 +428,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BE51EB121A563EF0066B97B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\" \"eu01xx5e4e0dd7cb07c45ce5258d890f3c4c48beca\"\n";
+		};
+		2A26F96831FEA23D7DE62A90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XcodeArciteTest-NotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75697171251E4B13081C8A34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XcodeArchiveTest-iCloudUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18E189153CBDC0AA5EC1931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XcodeArchiveTest-iCloudTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFEE713842714F8037D91478 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XcodeArchiveTest-iCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B494F8520FE018D005BE313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -366,6 +535,7 @@
 			files = (
 				B6CF3BEB20D7E38C00C82C54 /* ViewController.swift in Sources */,
 				B6CF3BE920D7E38C00C82C54 /* AppDelegate.swift in Sources */,
+				1BE51EB021A563BF0066B97B /* Placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +597,7 @@
 /* Begin XCBuildConfiguration section */
 		1B494F9220FE018D005BE313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43DF02F8B54E027BEE5B8E2 /* Pods-XcodeArciteTest-NotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "XcodeArciteTest-NotificationServiceExtension/XcodeArciteTest-NotificationServiceExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +618,7 @@
 		};
 		1B494F9320FE018D005BE313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6091993DE2048DCD32336D /* Pods-XcodeArciteTest-NotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "XcodeArciteTest-NotificationServiceExtension/XcodeArciteTest-NotificationServiceExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -527,13 +699,15 @@
 		};
 		1B9E7754211099A1009BB460 /* Debug copy */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D118B15DDA47808DC0DB8714 /* Pods-XcodeArchiveTest-iCloud.debug copy.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -543,6 +717,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.birmachera.bitfall.XcodeArchiveTest.iCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -550,11 +726,13 @@
 		};
 		1B9E7755211099A1009BB460 /* Debug copy */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FCB7D79376D97F2F42F9AE /* Pods-XcodeArchiveTest-iCloudTests.debug copy.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloudTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,6 +743,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloudTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloudTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeArchiveTest-iCloud.app/XcodeArchiveTest-iCloud";
@@ -573,9 +753,12 @@
 		};
 		1B9E7756211099A1009BB460 /* Debug copy */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E04645FE646BC93E5C549D /* Pods-XcodeArchiveTest-iCloudUITests.debug copy.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloudUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -585,8 +768,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloudUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "baf25395-c640-426c-bb68-07cd35cd33a5";
-				PROVISIONING_PROFILE_SPECIFIER = "XcodeArchiveTest iCloudUITests_dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloudUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "XcodeArchiveTest-iCloud";
@@ -595,6 +780,7 @@
 		};
 		1B9E7757211099A1009BB460 /* Debug copy */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED534991C86153CE20BC0E37 /* Pods-XcodeArciteTest-NotificationServiceExtension.debug copy.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "XcodeArciteTest-NotificationServiceExtension/XcodeArciteTest-NotificationServiceExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -669,13 +855,15 @@
 		};
 		1B9E7759211099A6009BB460 /* Release copy */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACF49C21A803C7F196BA698 /* Pods-XcodeArchiveTest-iCloud.release copy.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -685,6 +873,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.birmachera.bitfall.XcodeArchiveTest.iCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -692,10 +881,13 @@
 		};
 		1B9E775A211099A6009BB460 /* Release copy */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD06A22B9748149EFFF8C27 /* Pods-XcodeArchiveTest-iCloudTests.release copy.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloudTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -706,6 +898,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloudTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloudTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeArchiveTest-iCloud.app/XcodeArchiveTest-iCloud";
@@ -714,9 +907,12 @@
 		};
 		1B9E775B211099A6009BB460 /* Release copy */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECA71A21D45D365EC4FB695 /* Pods-XcodeArchiveTest-iCloudUITests.release copy.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloudUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -726,8 +922,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloudUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "baf25395-c640-426c-bb68-07cd35cd33a5";
-				PROVISIONING_PROFILE_SPECIFIER = "XcodeArchiveTest iCloudUITests_dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloudUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "XcodeArchiveTest-iCloud";
@@ -736,6 +933,7 @@
 		};
 		1B9E775C211099A6009BB460 /* Release copy */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED02C77C93C03D22A55DB77E /* Pods-XcodeArciteTest-NotificationServiceExtension.release copy.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "XcodeArciteTest-NotificationServiceExtension/XcodeArciteTest-NotificationServiceExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -870,12 +1068,14 @@
 		};
 		B6CF3C0E20D7E38E00C82C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5E1671C93A58A4C9D0A79B /* Pods-XcodeArchiveTest-iCloud.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
@@ -887,6 +1087,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -894,13 +1096,15 @@
 		};
 		B6CF3C0F20D7E38E00C82C54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CFB101BAEE976983F7A3B5 /* Pods-XcodeArchiveTest-iCloud.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloud/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -910,6 +1114,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.birmachera.bitfall.XcodeArchiveTest.iCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloud-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -917,10 +1122,13 @@
 		};
 		B6CF3C1120D7E38E00C82C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C109B2A75710B649553788D /* Pods-XcodeArchiveTest-iCloudTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloudTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -931,6 +1139,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloudTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloudTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeArchiveTest-iCloud.app/XcodeArchiveTest-iCloud";
@@ -939,11 +1149,13 @@
 		};
 		B6CF3C1220D7E38E00C82C54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C96B7C9896363E715CF8ED /* Pods-XcodeArchiveTest-iCloudTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloudTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -954,6 +1166,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloudTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloudTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeArchiveTest-iCloud.app/XcodeArchiveTest-iCloud";
@@ -962,9 +1175,12 @@
 		};
 		B6CF3C1420D7E38E00C82C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D8C26C415F6A9FC330B5CC /* Pods-XcodeArchiveTest-iCloudUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloudUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -974,8 +1190,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloudUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "baf25395-c640-426c-bb68-07cd35cd33a5";
-				PROVISIONING_PROFILE_SPECIFIER = "XcodeArchiveTest iCloudUITests_dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloudUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "XcodeArchiveTest-iCloud";
@@ -984,9 +1202,12 @@
 		};
 		B6CF3C1520D7E38E00C82C54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB5854300C8578D1AD83640 /* Pods-XcodeArchiveTest-iCloudUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "XcodeArchiveTest-iCloudUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -996,8 +1217,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.birmachera.XcodeArchiveTest-iCloudUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "baf25395-c640-426c-bb68-07cd35cd33a5";
-				PROVISIONING_PROFILE_SPECIFIER = "XcodeArchiveTest iCloudUITests_dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "XcodeArchiveTest-iCloud/XcodeArchiveTest-iCloudUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "XcodeArchiveTest-iCloud";
